@@ -166,7 +166,7 @@ class Fz_Comfort():
                 
     def Grap_result(self):
         #Resultados
-        self.temp.view(sim=self.conf_simulador)
+        self.temp.view(sim=self.conf_simulador,)
         self.humor.view (sim=self.conf_simulador)        
         self.umidade.view(sim=self.conf_simulador)
         self.conf.view(sim=self.conf_simulador)
@@ -210,22 +210,11 @@ def val():
 
 def simulador(graf_out=0):
     L=[[20,40,9],[25,45,5],[38,60,2]]
-    L=[[38,60,2]]
+    L=[[38,65,2]]
     for i in L:
         [a,b,c] = i
         Fz_sim(a,b,c).Fuzificar(graf_out,1)
 
 if __name__ == "__main__":
     simulador(1)
-    
-
-
-
-
-
-
-
-
-
-
-
+    pass
