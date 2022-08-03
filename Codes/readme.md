@@ -1,1 +1,0 @@
-Energetic analyze
