@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Método utiliza Lógica Fuzzy para definir um valor de conforto em 0 e 1.
-Pesquisa: https://www.youtube.com/watch?v=LF8A8EGk-4c
 """
 
 import skfuzzy as fuzz
