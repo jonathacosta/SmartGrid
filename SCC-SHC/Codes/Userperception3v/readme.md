@@ -1,1 +1,1 @@
-Codes of comfort perception analyzing using 3 variables.
+Analyzing of User comfort perception by 3 variables - codes
