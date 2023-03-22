@@ -83,7 +83,7 @@ class Forecast_DG:
         '''
         Previsão de GD mensal 
         '''
-        a=DG(ghi=2189,pot_mod=440,rend=0.8, detalhar=detalhado)
+        a=DG(ghi=2206.4,pot_mod=440,rend=0.8, detalhar=detalhado)
         a.dg_resumo(1)   
 #%%
 #******************************************************************************
@@ -93,5 +93,5 @@ class Forecast_DG:
 # a=DG()
 # a.consumo_cond(1)
 # a.dg_resumo(1)
-
-# a.Previsao_DG(True)
+a=Forecast_DG()
+a.Previsao_DG(True)
