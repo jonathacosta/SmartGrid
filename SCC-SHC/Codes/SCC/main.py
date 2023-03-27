@@ -48,8 +48,9 @@ class ManageSCC():
 # AREA DE TESTES
 #******************************************************************************
 #  Extração de gráficos específicos
-a=ManageSCC(dias=1,graf_agend=1,lang=1)
-a.sim()
+a=ManageSCC(atualizar=1)
+# a.sim()
+# a.comb()
 
 # a.sim()
 # a=ManageSCC()

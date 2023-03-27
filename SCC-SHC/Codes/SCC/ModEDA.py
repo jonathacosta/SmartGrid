@@ -60,7 +60,7 @@ class EDA:
    
     def preprocess_mes(self):    
         '''
-        Método cria um dataset com a coluna mês, e o somatório dss valores 
+        Método cria um dataset com a coluna mês, e o somatório dos valores 
         de custo e consumo                
         '''
         df_mes = pd.DataFrame()
@@ -266,6 +266,7 @@ class EDA:
 
 #% ********SIMULAÇÕES***************************************************
 # a=EDA()
+# a.df
 # a.consumo_mensal_condominio(1)
 # a.custo_mensal_condominio(1)
 # a.consolidado()

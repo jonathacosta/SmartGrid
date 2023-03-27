@@ -27,7 +27,7 @@ class SCC():
         self.condominio_dados=[]               
         self.lang = lang
         self.condominio_casas()
-        self.Results(delta=dias+97)   
+        self.Results(delta=dias)   
         
                               
     def SHC_config(self,casa_id):
